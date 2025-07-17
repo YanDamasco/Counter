@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.counter {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.numberDiv {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.decrease, .reset, .increase {
+    margin: 0 1vw 0 1vw;
+}
